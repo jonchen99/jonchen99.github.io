@@ -1,0 +1,79 @@
+/* Vars */
+
+$black: #010000;
+$white: #ffffff;
+$lightGrey: #D3D3D3;
+$darkGrey: #333;
+$textGrey: #606060;
+$red: #ff1755;
+$darkBlue: #0d3794;
+
+/* Mixins */
+
+@mixin translateY($e) {
+	-webkit-transform: translateY($e);
+	-moz-transform: translateY($e);
+	transform: translateY($e);
+}
+
+@mixin transition($e) {
+	-webkit-transition: $e;
+	-moz-transition: $e;
+	transition: $e;
+}
+
+h2, h3, h4, h6 {
+	font-family: 'Varela', sans-serif;
+	letter-spacing: 2.1px;
+	color: $black;
+	font-style: normal;
+}
+
+
+h2 {
+	font-size: 45px;
+	text-transform: uppercase;
+	margin-bottom: 10px;
+	font-weight: bold;
+}
+
+h3 {
+	font-size: 30px;
+	text-transform: uppercase;
+	margin-bottom: 15px;
+	font-weight: bold;
+}
+
+h4 {
+	font-size: 18px;
+	text-transform: uppercase;
+	margin-bottom: 15px;
+	font-weight: 500;
+}
+
+h6 {
+	font-size: 16px;
+	text-transform: uppercase;
+	letter-spacing: 2.1px;
+	font-weight: normal;
+	margin-bottom: 10px;
+}
+
+a {
+	cursor: pointer;
+
+	&:hover {
+		text-decoration: none;
+		color: $red;
+		@include transition(.4s ease-in-out);
+	}
+}
+
+p {
+		font-family: 'Lato', sans-serif;
+		color: $textGrey;
+		margin-bottom: 40px;
+		font-weight: normal;
+		font-size: 16px;
+		line-height: 25px;
+}

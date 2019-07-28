@@ -1,0 +1,143 @@
+@import "_config.scss";
+
+home_body {
+	
+	.homepage_area {
+		position: relative;
+		z-index: 1;
+		background: -webkit-linear-gradient(0deg, #5b86e5 0%, #36d1dc 100%);
+		margin-bottom: 300px;
+		height: 550px;
+	}
+	
+	.homepage_area .homepage_box {
+		min-height: 700px;
+		border-radius: 12px;
+		position: relative;
+		top: 20px;
+		background: $white;
+		padding: 30px;
+		box-shadow: 0px 20px 80px 0px rgba(153, 153, 153, 0.3);
+	}
+
+	@media (min-width: 1200px) {
+		.container {
+			max-width: 1170px;
+    	}
+	}
+
+	@media(min-width: 1620px) {
+		.homepage_box {
+			max-width: 1620px;
+			margin: auto;
+			width: 100%;
+			padding-left: 0px;
+			padding-right: 0px;
+		}
+
+		.about_box {
+			max-width: 1620px;
+			margin: auto;
+			width: 100%;
+			padding-left: 0px;
+			padding-right: 0px;
+			padding-bottom: 45px;
+		}
+	}
+
+	.homepage_area .inner_banner {
+		position: relative;
+		width: 100%;
+		min-height: 700px;
+	}
+
+	.homepage_area .inner_banner .box_content {
+		vertical-align: middle;
+		align-self: center;
+		text-align: left;
+	}
+
+	.homepage_area .inner_banner .box_content .media .d-flex {
+		padding-right: 75px;
+	}
+
+	img {
+		vertical-align: middle;
+		border-style: none;
+		border-radius: 12px;
+		height: 690px;
+		width: 668px;
+	}
+
+	.homepage_area .inner_banner .box_content .media .media-body {
+		vertical-align: middle;
+		align-self: center;
+	}
+
+	.media-text p {
+		max-width: 600px;
+		margin-bottom: 35px;
+	}
+
+	.media-text img {
+		height: 40px;
+		width: 40px;
+		margin-right: 10px;
+	}
+	.media-text .social_media {
+		margin-top: 35px;
+	}
+
+	.work_experiences {
+		font-family: 'Varela', sans-serif;
+	}
+
+	.media-text .work_experiences li a {
+		color: $darkBlue;
+		&:hover {
+			color: $red;
+			@include transition(.4s ease-in-out);
+		}
+	}
+	.media-text .work_experiences p {
+		margin-bottom: 20px;
+		padding-left: 50px;
+		font-size: 15px;
+		font-style: italic;
+	}
+
+	.list {
+		list-style: none;
+		margin: 0px;
+		padding: 0px;
+	}
+
+	.media-text .social_media li {
+		display: inline-block;
+		margin-right: 10px;
+	}
+
+	.media-text .social_media li a {
+		line-height: 40px;
+		width: 40px;
+		display: inline-block;
+		text-align: center;
+		color: $lightGrey;
+		font-size: 25px;
+
+		&:hover {
+			color: $red;
+			@include transition(.4s ease-in-out);
+		}
+	}
+
+	.about_class h3 {
+		padding-bottom: 15px;
+		text-align: center;
+	}
+
+	.about_class p {
+		text-align: justify;
+	}
+
+}
