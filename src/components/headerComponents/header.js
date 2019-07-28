@@ -5,27 +5,41 @@ import {HashLink as Link} from 'react-router-hash-link';
 function Header() {
   return (
   	<header>
-  		<div className="headerName">
-  			<Link to=""> Jonathan Chen </Link>
-  		</div>
+      <section className="header_area pad_30">
 
-  		<nav>
-  			<ul>
+    		<nav className="navbar navbar-expand-lg navbar-light">
+          <div className="container box_1620">
+            <div className="headerName">
+              <Link className="navbar-brand" to=""> Jonathan Chen </Link>
+            </div>
 
-  				<li className="first">
-            <Link to="">Home</Link>
-  				</li>
+            <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span className="icon-bar"> </span>
+              <span className="icon-bar"> </span>
+              <span className="icon-bar"> </span>
+            </button>
 
-  				 <li>
-            <Link to="/homepage#about">About</Link>
-  				</li>
+            <div className="collapse navbar-collapse offset" id="navbarSupportedContent">
 
-  				<li className="last">
-            <a href="/jonathanchen.pdf" target="_blank"> Resume </a>
-  			  </li>
+        			<ul className="nav navbar-nav menu_nav ml-auto">
 
-  			</ul>
-  		</nav>
+        				<li className="nav-item active">
+                  <Link to="">Home</Link>
+        				</li>
+
+        				 <li className="nav-item">
+                  <Link to="/homepage#about">About</Link>
+        				</li>
+
+        				<li className="nav-item">
+                  <a href="/jonathanchen.pdf" target="_blank"> Resume </a>
+        			  </li>
+
+        			</ul>
+            </div>
+          </div>
+    		</nav>
+      </section>
 
   	</header>
   );

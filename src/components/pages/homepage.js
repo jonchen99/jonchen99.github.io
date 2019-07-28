@@ -18,8 +18,8 @@ function Homepage() {
 		  				<div className="d-flex">
 		  					<img src= {$sample} alt=""/>
 		  				</div>
-		  				<div class="media-body">
-		  					<div class="media-text">
+		  				<div className="media-body">
+		  					<div className="media_text">
 		  						<h6> Hi, I'm </h6>
 		  						<h2> Jonathan Chen </h2>
 		  						<h4> Systems Design Engineering | University of Waterloo </h4>
@@ -27,7 +27,7 @@ function Homepage() {
 		  						<p> I am a software development student at BlackBerry that is passionate about using my technical experience to create efficient solutions to the problems that I encounter. 
 		  						</p>
 
-		  						<ul class="list work_experiences">
+		  						<ul className="list work_experiences">
 		  							<li> 
 										<img src = {$blackberry}/> 
 										<a href="https://www.blackberry.com" target="_blank"> 
@@ -55,7 +55,7 @@ function Homepage() {
 
 		  						</ul>
 
-		  						<ul class="list social_media">
+		  						<ul className="list social_media">
 		  							<li>
 		  								<a href="/jonathanchen.pdf" target="_blank"> 
 		  									<i class="fa fa-file">

@@ -74,17 +74,17 @@ home_body {
 		align-self: center;
 	}
 
-	.media-text p {
+	.media_text p {
 		max-width: 600px;
 		margin-bottom: 35px;
 	}
 
-	.media-text img {
+	.media_text img {
 		height: 40px;
 		width: 40px;
 		margin-right: 10px;
 	}
-	.media-text .social_media {
+	.media_text .social_media {
 		margin-top: 35px;
 	}
 
@@ -92,14 +92,14 @@ home_body {
 		font-family: 'Varela', sans-serif;
 	}
 
-	.media-text .work_experiences li a {
+	.media_text .work_experiences li a {
 		color: $darkBlue;
 		&:hover {
 			color: $red;
 			@include transition(.4s ease-in-out);
 		}
 	}
-	.media-text .work_experiences p {
+	.media_text .work_experiences p {
 		margin-bottom: 20px;
 		padding-left: 50px;
 		font-size: 15px;
@@ -112,12 +112,12 @@ home_body {
 		padding: 0px;
 	}
 
-	.media-text .social_media li {
+	.media_text .social_media li {
 		display: inline-block;
 		margin-right: 10px;
 	}
 
-	.media-text .social_media li a {
+	.media_text .social_media li a {
 		line-height: 40px;
 		width: 40px;
 		display: inline-block;
