@@ -18,7 +18,7 @@ function App() {
   return (
   	<Router>
 	    <div className="App">
-	       <Header />
+	       <Header path='header' component={Header}/>
 
 	       	    <Route exact path='/' component={Homepage} /> 
 	       		<Route exact path='/homepage' component={Homepage} /> 

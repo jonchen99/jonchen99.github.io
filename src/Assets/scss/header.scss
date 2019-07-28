@@ -43,15 +43,22 @@ header {
 		}
 	}
 
-	a {
+	.header_area .navbar .nav .nav-item .nav-link {
 		font-size: 14px;
 		line-height: normal; 
 		color: $white;
 		text-transform: uppercase;
+
+		&:hover {
+			text-decoration: none;
+			color: $red;
+			@include transition(.4s ease-in-out);
+		}
 	}
 
 	.header_area .navbar-light .navbar-brand {
 		color: $white;
+		text-transform: uppercase;
 	}
 	.header_area .navbar .nav .nav-item {
 		margin-right: 20px;
@@ -62,4 +69,3 @@ header {
 	}
 
 }
-
