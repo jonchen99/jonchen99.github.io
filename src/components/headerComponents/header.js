@@ -13,12 +13,10 @@ function Header() {
             <Link className="navbar-brand" to=""> Jonathan Chen </Link>
 
             <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="/header#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-              <span className="icon-bar"> </span>
-              <span className="icon-bar"> </span>
-              <span className="icon-bar"> </span>
+              <span class="navbar-toggler-icon"> </span>
             </button>
 
-            <div className="collapse navbar-collapse offset" id="navbarSupportedContent">
+            <div className="collapse navbar-collapse" id="navbarSupportedContent">
 
               <ul className="nav navbar-nav menu_nav ml-auto">
 
