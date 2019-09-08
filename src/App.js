@@ -15,10 +15,10 @@ import './Assets/css/header.min.css';
 import './Assets/css/homepage.min.css';
 import './Assets/css/footer.min.css';
 
-function initializeReactGA() {
+// function initializeReactGA() {
     ReactGA.initialize('UA-147444675-1');
-    ReactGA.pageview('/homepage');
-}
+    ReactGA.pageview('/');
+// }
 
 function App() {
   return (
