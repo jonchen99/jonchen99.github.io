@@ -33,7 +33,7 @@ class Header extends Component {
               <span class="navbar-toggler-icon"> </span>
             </button>
 
-            <div className={`{$classOne}`} id="navbarResponsive">
+            <div className={`${classOne}`} id="navbarResponsive">
 
               <ul className="nav navbar-nav menu_nav ml-auto">
 
