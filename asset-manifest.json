@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/static/css/main.98ba474b.chunk.css",
-    "main.js": "/static/js/main.ac7155bd.chunk.js",
-    "main.js.map": "/static/js/main.ac7155bd.chunk.js.map",
+    "main.js": "/static/js/main.a3fcb4e1.chunk.js",
+    "main.js.map": "/static/js/main.a3fcb4e1.chunk.js.map",
     "runtime~main.js": "/static/js/runtime~main.a8a9905a.js",
     "runtime~main.js.map": "/static/js/runtime~main.a8a9905a.js.map",
     "static/js/2.5b3b4e94.chunk.js": "/static/js/2.5b3b4e94.chunk.js",
     "static/js/2.5b3b4e94.chunk.js.map": "/static/js/2.5b3b4e94.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.5338b631ffaaa87b3149f8aa37954c6f.js": "/precache-manifest.5338b631ffaaa87b3149f8aa37954c6f.js",
+    "precache-manifest.27f3be6169192709a36894779673abe4.js": "/precache-manifest.27f3be6169192709a36894779673abe4.js",
     "service-worker.js": "/service-worker.js",
     "static/css/main.98ba474b.chunk.css.map": "/static/css/main.98ba474b.chunk.css.map",
     "static/media/blackberry_icon.png": "/static/media/blackberry_icon.c1ff4498.png",
