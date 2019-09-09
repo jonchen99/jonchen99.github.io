@@ -17,48 +17,48 @@ class Header extends Component {
   }
   render() {
     const collapsed = this.state.collapsed;
-    const dropdownList = collapsed ? 'collapse navbar-collapse' : 'collapse navbar-collapse show';
-    const myButton = collapsed ? 'navbar-toggler collapsed navbar-toggler-right' : 'navbar-toggler navbar-toggler-right';
+    const dropdownList = collapsed ? 'collapse navbar-collapse offset' : 'collapse offset navbar-collapse show';
+    const myButton = collapsed ? 'navbar-toggler collapsed' : 'navbar-toggler';
   
-  return (
-    <header>
-      <section className="header_area pad_30">
+    return (
+      <header>
+        <section className="header_area pad_30">
 
-        <nav className="navbar navbar-expand-lg navbar-light">
-          <div className="container box_1620">
-            
-            <Link className="navbar-brand" to=""> Jonathan Chen </Link>
+          <nav className="navbar navbar-expand-lg navbar-light">
+            <div className="container box_1620">
+              
+              <Link className="navbar-brand" to=""> Jonathan Chen </Link>
 
-            <button onClick={this.toggleNavbar} className={`${myButton}`} type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"> </span>
-            </button>
+              <button onClick={this.toggleNavbar} className={`${myButton}`} type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"> </span>
+              </button>
 
-            <div className={`${dropdownList}`} id="navbarResponsive">
+              <div className={`${dropdownList}`} id="navbarResponsive">
 
-              <ul className="nav navbar-nav menu_nav ml-auto">
+                <ul className="nav navbar-nav menu_nav ml-auto">
 
-                <li className="nav-item active">
-                  <Link className="nav-link" to="">Home</Link>
-                </li>
+                  <li className="nav-item active">
+                    <Link className="nav-link" to="">Home</Link>
+                  </li>
 
-                 <li className="nav-item">
-                  <Link className="nav-link" to="/homepage#about">About</Link>
-                </li>
+                   <li className="nav-item">
+                    <Link className="nav-link" to="/homepage#about">About</Link>
+                  </li>
 
-                <li className="nav-item">
-                  <a className="nav-link" href="/jonathanchen.pdf" target="_blank"> Resume </a>
-                </li>
+                  <li className="nav-item">
+                    <a className="nav-link" href="/jonathanchen.pdf" target="_blank"> Resume </a>
+                  </li>
 
-              </ul>
+                </ul>
+              </div>
+
             </div>
+          </nav>
+        </section>
 
-          </div>
-        </nav>
-      </section>
-
-    </header>
-  );
-}
+      </header>
+    );
+  }
 }
 
 export default Header;
