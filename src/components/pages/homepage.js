@@ -5,8 +5,6 @@ const $interset = require('/Users/jonathanchen/Documents/jonchen99.github.io/src
 const $blackberry = require('/Users/jonathanchen/Documents/jonchen99.github.io/src/img/blackberry_icon.png')
 const $psc = require('/Users/jonathanchen/Documents/jonchen99.github.io/src/img/psc_icon.png')
 
-
-
 function Homepage() {
   return (
   	<home_body>
@@ -93,7 +91,7 @@ function Homepage() {
 
 	  </section>
 
-	  <section className="about_section">
+	  <section className="about_section p_120">
 	  	<div className="container about_box">
 	  		<div className="about_class">
 	  			<h3>About Me </h3>

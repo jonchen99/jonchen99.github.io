@@ -7,7 +7,7 @@ home_body {
 		z-index: 1;
 		background: -webkit-linear-gradient(0deg, #5b86e5 0%, #36d1dc 100%);
 		margin-bottom: 300px;
-		height: 550px;
+		max-height: 700px;
 	}
 	
 	.homepage_area .homepage_box {
@@ -26,7 +26,7 @@ home_body {
     	}
 	}
 
-	@media(min-width: 1620px) {
+	@media (min-width: 1620px) {
 		.homepage_box {
 			max-width: 1620px;
 			margin: auto;
@@ -59,14 +59,6 @@ home_body {
 
 	.homepage_area .inner_banner .box_content .media .d-flex {
 		padding-right: 75px;
-	}
-
-	img {
-		vertical-align: middle;
-		border-style: none;
-		border-radius: 12px;
-		height: 690px;
-		width: 668px;
 	}
 
 	.homepage_area .inner_banner .box_content .media .media-body {
@@ -131,6 +123,10 @@ home_body {
 		}
 	}
 
+	.p_120 {
+		padding-top: 120px;
+		padding-bottom: 120px;
+	}
 	.about_class h3 {
 		padding-bottom: 15px;
 		text-align: center;
