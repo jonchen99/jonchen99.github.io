@@ -1,8 +1,25 @@
-import React from 'react';
+import React, {Component} from 'react';
 
 import {HashLink as Link} from 'react-router-hash-link';
 
-function Header() {
+class Header extends Component {
+  constructor(props) {
+    super(props);
+    this.toggleNavbar = this.toggleNavbar.bind(this);
+    this.state = {
+      collapsed: true,
+    };
+  }
+  toggleNavbar() {
+    this.setState({
+      collapsed: !this.state.collapsed,
+    });
+  }
+  render() {
+    const collapsed = this.state.collapsed;
+    const classOne = collapsed ? 'collapse navbar-collapse' : 'collapse navbar-collapse show';
+    const myButton = collapsed ? 'navbar-toggler collapsed' : 'navbar-toggler';
+  
   return (
     <header>
       <section className="header_area pad_30">
@@ -12,11 +29,11 @@ function Header() {
             
             <Link className="navbar-brand" to=""> Jonathan Chen </Link>
 
-            <button className="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <button onClick={this.toggleNavbar} className={`${myButton}`} type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"> </span>
             </button>
 
-            <div className="navbar-collapse offset collapse" id="navbarSupportedContent">
+            <div className={`{$classOne}`} id="navbarResponsive">
 
               <ul className="nav navbar-nav menu_nav ml-auto">
 
@@ -34,12 +51,14 @@ function Header() {
 
               </ul>
             </div>
+
           </div>
         </nav>
       </section>
 
     </header>
   );
+}
 }
 
 export default Header;
