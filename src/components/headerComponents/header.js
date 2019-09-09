@@ -16,7 +16,7 @@ function Header() {
               <span class="navbar-toggler-icon"> </span>
             </button>
 
-            <div className="navbar-collapse offset collapse" id="navbarSupportedContent" style>
+            <div className="navbar-collapse offset collapse" id="navbarSupportedContent">
 
               <ul className="nav navbar-nav menu_nav ml-auto">
 
