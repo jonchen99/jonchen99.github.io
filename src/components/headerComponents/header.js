@@ -17,8 +17,8 @@ class Header extends Component {
   }
   render() {
     const collapsed = this.state.collapsed;
-    const classOne = collapsed ? 'collapse navbar-collapse' : 'collapse navbar-collapse show';
-    const myButton = collapsed ? 'navbar-toggler collapsed' : 'navbar-toggler';
+    const dropdownList = collapsed ? 'collapse navbar-collapse' : 'collapse navbar-collapse show';
+    const myButton = collapsed ? 'navbar-toggler collapsed navbar-toggler-right' : 'navbar-toggler navbar-toggler-right';
   
   return (
     <header>
@@ -33,7 +33,7 @@ class Header extends Component {
               <span class="navbar-toggler-icon"> </span>
             </button>
 
-            <div className={`${classOne}`} id="navbarResponsive">
+            <div className={`${dropdownList}`} id="navbarResponsive">
 
               <ul className="nav navbar-nav menu_nav ml-auto">
 
