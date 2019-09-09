@@ -14,6 +14,7 @@ import Homepage from './components/pages/homepage';
 import './Assets/css/header.min.css';
 import './Assets/css/homepage.min.css';
 import './Assets/css/footer.min.css';
+import './Assets/css/responsive.min.css';
 
 // function initializeReactGA() {
     ReactGA.initialize('UA-147444675-1');
