@@ -1,12 +1,12 @@
 @import "_config.scss";
 
 header {
-	background: -webkit-linear-gradient(0deg, #5b86e5 0%, #36d1dc 100%);
 	font-family: 'Varela', sans-serif;
 
 	.pad_30 {
 		padding-top: 30px;
 		padding-bottom: 30px;
+		background: -webkit-linear-gradient(0deg, #5b86e5 0%, #36d1dc 100%);
 	}
 
 	.header_area {

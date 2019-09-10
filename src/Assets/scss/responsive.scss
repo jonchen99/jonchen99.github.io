@@ -40,6 +40,12 @@ home_body {
 		}
 	}
 
+	@media (max-width: 991px) {
+		.header_area .navbar {
+			background: #000000;
+		}
+	}
+
 	@media (max-width: 767px) {
 		.homepage_area {
 			min-height: 570px;
