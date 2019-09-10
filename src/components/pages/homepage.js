@@ -91,7 +91,7 @@ function Homepage() {
 
 	  </section>
 
-	  <section className="about_section p_100">
+	  <section className="about_section p_120">
 	  	<div className="container about_box">
 	  		<div className="about_class">
 	  			<h3>About Me </h3>
