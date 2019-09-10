@@ -24,7 +24,7 @@ class Header extends Component {
       <header>
         <section className="header_area pad_30">
 
-          <nav className="navbar navbar-expand-lg navbar-light static-top">
+          <nav className="navbar navbar-expand-lg navbar-light navbar-static-top">
             <div className="container box_1620">
               
               <Link className="navbar-brand" to=""> Jonathan Chen </Link>
