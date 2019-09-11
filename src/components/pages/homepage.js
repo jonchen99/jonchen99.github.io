@@ -1,6 +1,6 @@
 import React from 'react';
 
-const $sample = require('/Users/jonathanchen/Documents/jonchen99.github.io/src/img/sample.png')
+const $sample = require('/Users/jonathanchen/Documents/jonchen99.github.io/src/img/mainPhoto.jpeg')
 const $interset = require('/Users/jonathanchen/Documents/jonchen99.github.io/src/img/interset_icon.png')
 const $blackberry = require('/Users/jonathanchen/Documents/jonchen99.github.io/src/img/blackberry_icon.png')
 const $psc = require('/Users/jonathanchen/Documents/jonchen99.github.io/src/img/psc_icon.png')
