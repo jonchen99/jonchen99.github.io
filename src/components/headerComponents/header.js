@@ -17,7 +17,7 @@ class Header extends Component {
   }
   render() {
     const collapsed = this.state.collapsed;
-    const dropdownList = collapsed ? 'collapse navbar-collapse offset' : 'collapse offset navbar-collapse show';
+    const dropdownList = collapsed ? 'collapse navbar-collapse offset' : 'container collapse offset navbar-collapse show';
     const myButton = collapsed ? 'navbar-toggler collapsed' : 'navbar-toggler';
   
     return (

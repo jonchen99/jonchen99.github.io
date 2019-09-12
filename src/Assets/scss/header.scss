@@ -58,8 +58,13 @@ header {
 	.header_area .navbar-light .navbar-brand {
 		color: $white;
 		text-transform: uppercase;
-		padding-left: 5px;
+		padding-left: 8px;
 	}
+
+	.header_area .navbar .navbar-toggler {
+		margin-right: 8px;
+	}
+
 	.header_area .navbar .nav .nav-item {
 		margin-right: 20px;
 	}
