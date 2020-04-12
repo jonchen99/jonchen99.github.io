@@ -4,6 +4,7 @@ const $sample = require('/Users/jonathanchen/Documents/jonchen99.github.io/src/i
 const $interset = require('/Users/jonathanchen/Documents/jonchen99.github.io/src/img/interset_icon.png')
 const $blackberry = require('/Users/jonathanchen/Documents/jonchen99.github.io/src/img/blackberry_icon.png')
 const $psc = require('/Users/jonathanchen/Documents/jonchen99.github.io/src/img/psc_icon.png')
+const $league = require('/Users/jonathanchen/Documents/jonchen99.github.io/src/img/league.png')
 
 function Homepage() {
   return (
@@ -26,6 +27,15 @@ function Homepage() {
 		  						</p>
 
 		  						<ul className="list work_experiences">
+		  							<li> 
+										<img src = {$league}/> 
+										<a href="https://www.league.com" target="_blank"> 
+											League 
+										</a>
+
+										<p> Jan - Apr 2020 </p>
+		  							</li>
+
 		  							<li> 
 										<img src = {$blackberry}/> 
 										<a href="https://www.blackberry.com" target="_blank"> 
