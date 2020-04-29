@@ -104,9 +104,8 @@ function Homepage() {
 	  <section className="about_section p_120">
 	  	<div className="container about_box">
 	  		<div className="about_class">
+	  		<div className="container" id="about">
 	  			<h3>About Me </h3>
-
-  				<div className="container" id="about">
   					<p>
   						I am currently in my third year at the University of Waterloo. I am constantly asked, "what is Systems Design?" Well, for me Systems Design Engineering is a program that allows you to think critically about all products, whether it be a water bottle or a web application, and provides you with the knowledge necessary to solve the problems that may exist. Systems, in essence, is who I am. I constantly seek to learn and understand new technologies, then apply my knowledge to create efficient and secure solutions to the challenges that I face. <br/> <br/>
 
