@@ -1,10 +1,12 @@
 import React from 'react';
 
-const $sample = require('/Users/jonathanchen/Documents/jonchen99.github.io/src/img/mainPhoto.jpeg')
+const $mainPhoto = require('/Users/jonathanchen/Documents/jonchen99.github.io/src/img/mainPhoto.jpeg')
 const $interset = require('/Users/jonathanchen/Documents/jonchen99.github.io/src/img/interset_icon.png')
 const $blackberry = require('/Users/jonathanchen/Documents/jonchen99.github.io/src/img/blackberry_icon.png')
 const $psc = require('/Users/jonathanchen/Documents/jonchen99.github.io/src/img/psc_icon.png')
-const $league = require('/Users/jonathanchen/Documents/jonchen99.github.io/src/img/league.png')
+const $league = require('/Users/jonathanchen/Documents/jonchen99.github.io/src/img/league_icon.png')
+const $altairix = require('/Users/jonathanchen/Documents/jonchen99.github.io/src/img/altairix_icon.png')
+
 
 function Homepage() {
   return (
@@ -15,7 +17,7 @@ function Homepage() {
 	  			<div className = "box_content">
 	  				<div className = "media">
 		  				<div className="d-flex">
-		  					<img src= {$sample} alt=""/>
+		  					<img src= {$mainPhoto} alt=""/>
 		  				</div>
 		  				<div className="media-body">
 		  					<div className="media_text">
@@ -27,6 +29,16 @@ function Homepage() {
 		  						</p>
 
 		  						<ul className="list work_experiences">
+
+		  							<li> 
+										<img src = {$altairix}/> 
+										<a href="https://www.altairix.com/" target="_blank"> 
+											Altairix 
+										</a>
+
+										<p> Sep - Dec 2020 </p>
+		  							</li>
+
 		  							<li> 
 										<img src = {$league}/> 
 										<a href="https://www.league.com" target="_blank"> 
@@ -109,7 +121,7 @@ function Homepage() {
   					<p>
   						I am currently in my third year at the University of Waterloo. I am constantly asked, "what is Systems Design?" Well, for me Systems Design Engineering is a program that allows you to think critically about all products, whether it be a water bottle or a web application, and provides you with the knowledge necessary to solve the problems that may exist. Systems, in essence, is who I am. I constantly seek to learn and understand new technologies, then apply my knowledge to create efficient and secure solutions to the challenges that I face. <br/> <br/>
 
-  						Through my previous internships and school courses, I have gained experience developing in Golang, Java, C++, C, and Bash. Most recently, I have just completed an internship as a Software Engineering Co-op Student at League Inc. where I was a member of the Security Engineering team responsible for protecting the integrity of the League application. As a result, I developed the authentication flow for users signing into the app as well as investigated and presented new security applications to be used by the entire engineering team. Prior to League, I was a Security Software Developer on an innovation team at BlackBerry that was responsible for investigating new ideas for the organization. One of my main projects throughout the term was to develop a prototype of an Android application that emulates a car key using Bluetooth on your phone. Before BlackBerry, I was a Quality Engineering Intern at Interset, where I was responsible for automating the product installer using Bash, developing unit tests in Java, and performing regression tests on the latest product release. Additionally, in the winter of 2018, I worked at the Public Service Commission of Canada (PSC) as an IT Security Analyst. My role at the PSC was to prevent, manage, and mitigate IT security incidents. I accomplished this by researching new security tools and creating a knowledge base on how to handle security incidents for future employees. <br/> <br/>
+  						Through my previous internships and school courses, I have gained experience developing in Java, Golang, C++, C, and Bash. Most recently, I have just completed an internship as a Software Engineering Co-op Student at League Inc. where I was a member of the Security Engineering team responsible for protecting the integrity of the League application. As a result, I developed the authentication flow for users signing into the app as well as investigated and presented new security applications to be used by the entire engineering team. Prior to League, I was a Security Software Developer on an innovation team at BlackBerry that was responsible for investigating new ideas for the organization. One of my main projects throughout the term was to develop a prototype of an Android application that emulates a car key using Bluetooth on your phone. Before BlackBerry, I was a Quality Engineering Intern at Interset, where I was responsible for automating the product installer using Bash, developing unit tests in Java, and performing regression tests on the latest product release. Additionally, in the winter of 2018, I worked at the Public Service Commission of Canada (PSC) as an IT Security Analyst. My role at the PSC was to prevent, manage, and mitigate IT security incidents. I accomplished this by researching new security tools and creating a knowledge base on how to handle security incidents for future employees. <br/> <br/>
 
 
 						In my free time, I enjoy everything sports related. I have been playing soccer since I was six years old, and recently I have developed a love for ultimate frisbee and badminton. I am also passionate about the Ottawa Senators (even through the dark times), and avidly watch the Premier League. Beyond that, I enjoy playing chess and challenging my friends in Sporcle.
