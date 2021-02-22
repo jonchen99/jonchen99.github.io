@@ -1,11 +1,11 @@
 import React from 'react';
 
-const $mainPhoto = require('/Users/jonathanchen/Documents/jonchen99.github.io/src/img/mainPhoto.jpeg')
-const $interset = require('/Users/jonathanchen/Documents/jonchen99.github.io/src/img/interset_icon.png')
-const $blackberry = require('/Users/jonathanchen/Documents/jonchen99.github.io/src/img/blackberry_icon.png')
-const $psc = require('/Users/jonathanchen/Documents/jonchen99.github.io/src/img/psc_icon.png')
-const $league = require('/Users/jonathanchen/Documents/jonchen99.github.io/src/img/league_icon.png')
-const $altairix = require('/Users/jonathanchen/Documents/jonchen99.github.io/src/img/altairix_icon.png')
+const $mainPhoto = require('/Users/jonathanchen/jonchen99.github.io/src/img/mainPhoto.jpeg')
+const $interset = require('/Users/jonathanchen/jonchen99.github.io/src/img/interset_icon.png')
+const $blackberry = require('/Users/jonathanchen/jonchen99.github.io/src/img/blackberry_icon.png')
+const $psc = require('/Users/jonathanchen/jonchen99.github.io/src/img/psc_icon.png')
+const $league = require('/Users/jonathanchen/jonchen99.github.io/src/img/league_icon.png')
+const $altairix = require('/Users/jonathanchen/jonchen99.github.io/src/img/altairix_icon.png')
 
 
 function Homepage() {
