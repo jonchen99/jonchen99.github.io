@@ -33,7 +33,7 @@ function Homepage() {
 		  							<li> 
 										<img src = {$odaia}/> 
 										<a href="https://odaia.ai/" target="_blank"> 
-											Odaia 
+											ODAIA 
 										</a>
 
 										<p> May - Aug 2021 </p>
@@ -129,7 +129,7 @@ function Homepage() {
   					<p>
   						I am currently in my fourth year at the University of Waterloo. I am constantly asked, "what is Systems Design?" Well, for me Systems Design Engineering is a program that allows you to think critically about all products, whether it be a water bottle or a web application, and provides you with the knowledge necessary to solve the problems that may exist. Systems, in essence, is who I am. I constantly seek to learn and understand new technologies, then apply my knowledge to create efficient and secure solutions to the challenges that I face. <br/> <br/>
 
-  						Through my previous internships and school courses, I gained experience developing in Java, Python, Golang, R, and Bash. Most recently, I have just completed an internship as a Software Engineering Intern at Odaia where I designed and developed instrumentation reports for the machine learning models used Odaia's Maptual product. These reports contained data visualizations that were used to validate the ML predictions, which lead to the surfacing of 30+ critical bugs and also aided in the tuning of the paramaters of the models. <br/><br/>
+  						Through my previous internships and school courses, I gained experience developing in Java, Python, Golang, R, and Bash. Most recently, I have just completed an internship as a Software Engineering Intern at ODAIA where I designed and developed instrumentation reports for the machine learning models used ODAIA's Maptual product. These reports contained data visualizations that were used to validate the ML predictions, which lead to the surfacing of 30+ critical bugs and also aided in the tuning of the paramaters of the models. <br/><br/>
 
   						My other experiences include working as a Software Developer at Altairix, where I developed a custom reporting feature for their newly created questionnaire. These reports were generated on a weekly basis and helped the organization and their clients understand the demographics of the questionnaire respondents in order to create highly targeted marketing campaigns. Additionally, I also worked as a Security Engineer at League Inc. where I was responsible for protecting the integrity of the League application. As a result, I developed the authentication flow for users signing into the app as well as investigated and presented new security applications for the entire engineering team to use. Prior to League, I was a Security Software Developer on an innovation team at BlackBerry that was responsible for investigating new ideas for the organization. One of my main projects was to develop a prototype of an Android application that emulates a car key using Bluetooth. Before BlackBerry, I was a Quality Engineering Intern at Interset, where I was responsible for automating the product installer using Bash, developing unit tests in Java, and performing regression tests on the latest product release. Finally, in the winter of 2018, I worked at the Public Service Commission of Canada (PSC) as an IT Security Analyst. My role at the PSC was to prevent, manage, and mitigate IT security incidents. I accomplished this by researching new security tools and creating a knowledge base on how to handle security incidents for future employees. <br/> <br/>
 
